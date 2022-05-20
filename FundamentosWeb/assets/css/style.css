@@ -1,0 +1,53 @@
+.varios{
+    color: rgb(62, 116, 233);
+    text-align: left;
+    font-size: 20px;
+    font-weight:lighter
+}
+
+.parques{
+    color:rgb(47, 144, 151);
+    text-align: left;
+    font-weight:bold;
+}
+
+.img{
+    height: 300px;
+    width:600px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#img1{
+    height: 300px;
+    width:300px;
+
+}
+
+#sobre{
+    color: rgb(62, 116, 233);
+     text-align: left; 
+     font-size: 40px; 
+     font-weight: bold; 
+     font-variant:small-caps"
+}
+
+#show{
+    color:rgb(209, 37, 186); 
+    text-align: left; 
+    font-size: 30px; 
+    font-weight: bold; 
+    font-variant:normal;
+}
+
+#show2{
+    color:rgb(194, 123, 226);
+     text-align: left;
+      font-size: 20px;
+       font-weight:lighter;
+}
