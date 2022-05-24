@@ -13,13 +13,8 @@ function enviar(){
     }
 }
 
-// Pegando a URL
 function espacoMsg(){
     let location = window.location.href
     espaco.innerHTML = location
 }
 
-// Dark Theme
-function darkTheme(){
-    document.body.classList.toggle('dark-theme')
-}
