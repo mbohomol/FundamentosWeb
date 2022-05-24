@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Contato</h1>
+    <ul class="menu"> 
+        <li>
+         <a href= index.html > Home</a>
+        </li>
+     <li>
+      <a href= contato.html> Contato</a>
+     </li>
+     <li>
+        <a href= paginainicial.html> Inicio</a>
+       </li>
+ </ul>
+    <h1 id="contato">Contato</h1>
 
     <br><br>
 
     <form onsubmit="enviar()">
-        <label for="nome">Nome:</label>
+        <div class="dados">
+        <label for="nome">Nome: </label>
         <input type="text" id="nome"><br><br>
 
         <label for="email">Email:</label>
@@ -21,11 +33,11 @@
 
         <label for="assunto">Assunto:</label><br>
         <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-
+    </div>
         <button>Enviar</button>
     </form>
     <br><br>
-    <h2>Endereço:</h2><br>
+    <h2 id="endereco">Endereço:</h2><br>
     
     <p>Av. Paulista, 100</p>
     <p>São Paulo - SP</p>

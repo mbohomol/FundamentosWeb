@@ -16,7 +16,7 @@
   
 }
 
-.img{
+.imgparquesdisney{
     height: 300px;
     width:600px;
     padding: 15px;
@@ -30,7 +30,7 @@
     margin: 50;
 }
 
-#menu li {
+.menu li {
     display: inline;
     color: palevioletred;
     font-size: 15px;
@@ -40,25 +40,29 @@
 }
 
 
-#menu li a:hover{
+.menu li a:hover{
     color: pink;
     
 }
 
 
 
-
-
-
-#sobre{
+#waltdisney{
     color: rgb(62, 116, 233);
      text-align: center; 
      font-size: 50px; 
      font-weight: bold; 
      font-variant:small-caps;
-     padding: 30px;
+     padding: 15px;
     
     
+}
+
+#imgcastelodisney{
+    height: 950px;
+    width:1300px;
+    padding: 5px;
+
 }
 
 #show{
@@ -78,6 +82,29 @@
        padding: 15px
 }
 
+#contato{
+    color:rgb(24, 10, 143);
+    text-align: left;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 10px
+}
+
+.dados{
+    color:rgb(24, 10, 143);
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold
+
+}
+
+#endereco{
+    color:rgb(24, 10, 143);
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold
+
+}
 
 
 
@@ -104,7 +131,7 @@
     justify-content: center;    /* Centraliza os conteúdos da classe ao seu centro de form horizontalment*/
     align-items: center;        /* Centraliza os conteúdos da classe ao seu centro de forma verticalmente*/
 
-    background-image: url(../img/CasteloDisney.jpg);/* Define o plano de fundo da classe com uma imagem*/
+    background-image: url(../img/PaginaInicial.jpg);/* Define o plano de fundo da classe com uma imagem*/
     background-size: cover;     /* Define o tamanho do plano de fundo, no caso a imagem será mostrada de forma inteira na classe */
 }
 
@@ -141,10 +168,5 @@
 
 
 
-#img1{
-    height: 800px;
-    width:1200px;
-    padding: 10px;
 
-}
 
